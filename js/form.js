@@ -55,10 +55,11 @@ class Form{
       location.reload();
       game.updateTurn(1);
       database.ref("/").update({
-          players : null,
-          matchedSprites : null
+          players : null
       });
-      
+      database.ref("/").update({
+        matchedSprites : null
+    });
     })
 
     }
