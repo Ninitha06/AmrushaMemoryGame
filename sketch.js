@@ -13,6 +13,8 @@ var allowClick = false;
 var clickMouse = true;
 var click = 0;
 var matchedSprites = [];
+var playerWon = null;
+
   
 var matchNum1;
 var matchNum2;
@@ -58,9 +60,9 @@ function draw() {
   }
    
   
- /* if(gameState === 2){
+  if(gameState === 2){
     game.end();
-  }*/
+  }
 
  
  
